@@ -1,0 +1,51 @@
+.caixa {
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: normal;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    height: auto;
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: 16px;
+    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+    border: 2px solid rgb(57, 224, 155);
+    background-color: #37aee1;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;}
+
+.botao {
+      -webkit-font-smoothing: antialiased;
+    letter-spacing: normal;
+    font: inherit;
+    margin: 0px;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    padding: 16px 20px;
+    width: 100%;
+    appearance: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    white-space: normal;
+    background: none;
+    color: inherit;
+    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
